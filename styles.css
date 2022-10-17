@@ -1,0 +1,151 @@
+@import url("https://use.typekit.net/pjl8ymm.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: lato, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.mobile-logo-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.mobile-menu-button {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  z-index: 1;
+}
+
+.mobile-menu-wrap
+.mobile-menu-button
+img {
+  width: 20px;
+}
+
+.main-wrap {
+  font-size: 15px;
+  width: 90%;
+  margin-bottom: 4px;
+  letter-spacing: 0px;
+  background-image: url(Images/main-bg-example.png);
+  background-repeat: repeat-x;
+}
+
+.main-wrap section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 51px;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.wrap > section {
+  width: 98%;
+  margin: 0px auto;
+  align-items: center;
+}
+
+section > img {
+  width: 90%;
+}
+
+.message {
+  margin: 17px 0.75em 0;
+  padding: 1em 0.5em;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.125em;
+  height: 95px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.location .dateinfo {
+  font-weight: bold;
+  font-size: 15px;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 0px;
+}
+
+.location .locate {
+  font-size: 15px;
+  width: 90%;
+  text-align: center;
+}
+
+.main-program-wrap {
+  background-image: url(Images/main-program-pattern-bg.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  padding-bottom: 80px;
+  height: auto;
+}
+
+.main-program-wrap section {
+  width: 95%;
+  padding-top: 60px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+h1.normal {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.guide-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0 auto 54px;
+}
+
+.program-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 0;
+  margin: 0 0 0.5em 0;
+}
+
+.program-icon {
+  margin: 0 0 0 0.5em;
+  padding: 0;
+}
+
+.program-sub-title {
+  font-size: 14px;
+  line-height: 52px;
+  color: rgb(239, 81, 60);
+  font-weight: bold;
+}
+
+.program-sub-description {
+  font-size: 0.75em;
+  margin: 0 0.5em 0 0;
+}
+
+@media (min-width: 768px){
+
+}

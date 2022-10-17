@@ -2,12 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> Capstone project
 
 
 ## Built With
 
-- Major languages
+- Html, CSS, JavaScript
 - Frameworks
 - Technologies used
 
@@ -40,17 +40,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Jesus Molina**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Sparktan24](https://github.com/Sparktan24)
+- Twitter: [@Sparktan1](https://twitter.com/Sparktan1)
+- LinkedIn: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
