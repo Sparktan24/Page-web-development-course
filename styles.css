@@ -30,7 +30,6 @@ body {
   margin-bottom: 4px;
   letter-spacing: 0px;
   background-image: url(Images/main-bg-example.png);
-  background-repeat: repeat-x;
 }
 
 .main-wrap section {
@@ -273,6 +272,14 @@ h3.normal {
 
 .ccl-info {
   font-size: 0.75em;
+}
+
+.about {
+  margin: 0;
+}
+
+.guide-about {
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
