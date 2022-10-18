@@ -12,6 +12,9 @@ body {
   width: 100%;
   margin: 1em 0;
 }
+.mobile-logo-wrap img {
+  width: 180px;
+}
 
 .mobile-menu-button {
   position: absolute;
@@ -123,6 +126,7 @@ h1.normal {
   background: rgba(255, 255, 255, 0.1);
   padding: 12px 0;
   margin: 0 0 0.5em 0;
+  width: 100%;
 }
 
 .program-icon {
@@ -135,11 +139,18 @@ h1.normal {
   line-height: 52px;
   color: rgb(239, 81, 60);
   font-weight: bold;
+  text-align: center;
+  width: 26%;
+}
+.program-sub-title p {
+  margin: 0;
+  width: 80px;
 }
 
 .program-sub-description {
   font-size: 0.75em;
   margin: 0 0.5em 0 0;
+  width: 74%;
 }
 
 .main-program-wrap .show-all-program {
@@ -180,6 +191,11 @@ h1.normal {
   margin-bottom: 1.5em;
   margin-left: 0;
   gap: 0.5em;
+}
+
+.speaker-image img {
+  width: 178px;
+  border-radius: 8px;
 }
 
 .speaker-name {
