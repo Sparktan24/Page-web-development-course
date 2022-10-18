@@ -267,6 +267,26 @@ h3.normal {
   }
 }
 
+.site-footer {
+  line-height: 1.6;
+}
+
+.footer-black {
+  font-size: 0.875em;
+  color: #fff;
+  background-color: #2e2e2e;
+  padding: 24px 0;
+  height: 300px;
+}
+
+.ccl-logo {
+  padding-top: 20px;
+}
+
+.ccl-info {
+  font-size: .750em;
+}
+
 @media (min-width: 768px){
   .speaker-list {
     grid-template-columns: auto auto;
