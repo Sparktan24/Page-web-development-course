@@ -1,8 +1,10 @@
 @import url("https://use.typekit.net/pjl8ymm.css");
+$font-lato: lato, sans-serif;
+
 body {
   margin: 0;
   padding: 0;
-  font-family: lato, sans-serif;
+  font-family: $font-lato;
   color: rgb(51, 51, 51);
 }
 
@@ -20,7 +22,9 @@ body {
   z-index: 1;
 }
 
-.mobile-menu-wrap .mobile-menu-button img {
+.mobile-menu-wrap
+.mobile-menu-button
+img {
   width: 20px;
 }
 
@@ -143,10 +147,13 @@ h1.normal {
   margin: 0 0.5em 0 0;
 }
 
+.show-all-program {
+}
+
 .main-program-wrap .show-all-program {
   margin-top: 20px;
   text-align: right;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .show-all-program a {
@@ -186,17 +193,18 @@ h1.normal {
 .speaker-name {
   font-size: 22px;
   margin: 0;
-}
-.speaker-name p {
-  margin: 0;
+
+  p {
+    margin: 0;
+  }
 }
 
 .organize {
   font-size: 13px;
   color: #ff4f38;
-}
-.organize p {
-  margin: 0.5em 0;
+  p {
+    margin: 0.5em 0;
+  }
 }
 
 .speaker-description {
@@ -208,10 +216,11 @@ h1.normal {
 .see-more-speakers {
   text-align: right;
   font-size: 16px;
-}
-.see-more-speakers a {
-  text-decoration: none;
-  color: rgb(51, 51, 51);
+
+  a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+  }
 }
 
 .guide-line {
@@ -228,13 +237,15 @@ h1.normal {
   flex-direction: column;
 }
 
-.partner-wrap section {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-}
-.partner-wrap section .guide-bar {
-  margin-bottom: 30px;
+.partner-wrap {
+  section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    .guide-bar{
+      margin-bottom: 30px;
+    }
+  }
 }
 
 h3.normal {
@@ -249,19 +260,19 @@ h3.normal {
 .logos {
   margin-top: 15px;
   margin-bottom: 30px;
-}
-.logos img {
-  width: 320px;
-  border: 0;
+
+  img {
+    width: 320px;
+    border: 0;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .speaker-list {
     grid-template-columns: auto auto;
   }
+
   .speaker {
     margin-left: 10px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
