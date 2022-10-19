@@ -13,6 +13,7 @@ body {
   justify-content: center;
   width: 100%;
   margin: 1em 0;
+
   img {
     width: 180px;
   }
@@ -25,9 +26,7 @@ body {
   z-index: 1;
 }
 
-.mobile-menu-wrap
-.mobile-menu-button
-img {
+.mobile-menu-wrap .mobile-menu-button img {
   width: 20px;
 }
 
@@ -51,14 +50,15 @@ img {
   width: 100%;
 }
 
-.wrap > section, .wrap > div {
+.wrap>section,
+.wrap>div {
   width: 98%;
   max-width: 1100px;
   margin: 0px auto;
   align-items: center;
 }
 
-section > img {
+section>img {
   width: 90%;
 }
 
@@ -147,6 +147,7 @@ h1.normal {
   color: rgb(239, 81, 60);
   font-weight: bold;
   text-align: center;
+
   //width: 26%;
   p {
     margin: 0;
@@ -160,21 +161,36 @@ h1.normal {
   width: 74%;
 }
 
-.show-all-program {
+.main-program-wrap {
+  .show-all-program {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+
+    a {
+      color: #fff;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+
+    .button {
+      background: #ec5242;
+      width: 160px;
+      height: 48px;
+      transition: all 0.5s ease-out;
+      border: none;
+      font-weight: bold;
+    }
+  }
 }
 
-.main-program-wrap .show-all-program {
-  margin-top: 20px;
-  text-align: right;
-  font-size: 16px
-}
-
+/*
 .show-all-program a {
   color: #fff;
   margin-top: 20px;
   text-decoration: none;
-}
-
+}*/
 .end-bar {
   border-bottom: 1px solid #dfdfdf;
 }
@@ -222,6 +238,7 @@ h1.normal {
 .organize {
   font-size: 13px;
   color: #ff4f38;
+
   p {
     margin: 0.5em 0;
   }
@@ -234,12 +251,26 @@ h1.normal {
 }
 
 .see-more-speakers {
-  text-align: right;
+  display: flex;
+  justify-content: center;
   font-size: 16px;
 
-  a{
+  .button-speakers {
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 90%;
+    height: 50px;
+  }
+
+  a {
+    font-family: $font-lato;
     text-decoration: none;
     color: rgb(51, 51, 51);
+
+    span {
+      //font-size: 30px;  <span>&#8964;</span>
+    }
   }
 }
 
@@ -262,7 +293,16 @@ h1.normal {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    .guide-bar{
+
+    .partners{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .guide-bar {
       margin-bottom: 30px;
     }
   }
@@ -282,7 +322,7 @@ h3.normal {
   margin-bottom: 30px;
 
   img {
-    width: 320px;
+    //width: 320px;
     border: 0;
   }
 }
@@ -292,11 +332,12 @@ h3.normal {
 }
 
 .footer-black {
+  display: flex;
+  align-items: center;
   font-size: 0.875em;
   color: #fff;
   background-color: #2e2e2e;
   padding: 24px 0;
-  height: 300px;
 }
 
 .ccl-logo {
@@ -305,6 +346,12 @@ h3.normal {
 
 .ccl-info {
   font-size: .750em;
+}
+
+.content-cc {
+  display: flex;
+  gap: 30px;
+  padding: 0 10%;
 }
 
 //ABOUT PAGE
@@ -320,7 +367,32 @@ h3.normal {
   display: none;
 }
 
-@media (min-width: 768px){
+.display-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-program-wrap {
+
+    .show-all-program {
+      display: none;
+    }
+
+    .show-all-program-desk {
+      display: flex;
+      width: fit-content;
+      margin-top: 20px;
+      font-size: 16px;
+
+      a {
+        color: #fff;
+        margin-top: 20px;
+        border-bottom: 1px solid #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
   .speaker-list {
     grid-template-columns: auto auto;
   }
@@ -329,10 +401,15 @@ h3.normal {
     margin-left: 10px;
   }
 
+  .see-more-speakers {
+    display: none;
+  }
+
   //REMOVE mobile nav
   .mobile-logo-wrap {
     display: none;
   }
+
   //REMOVE mobile menu button
   .mobile-menu-button {
     display: none;
@@ -344,6 +421,7 @@ h3.normal {
   }
 
   .main-menu {
+
     //display: flex;
     //gap: 10%;
     img {
@@ -352,6 +430,7 @@ h3.normal {
   }
 
   .menus {
+
     //width: 40%;
     ul {
       display: flex;
@@ -359,6 +438,7 @@ h3.normal {
       gap: 30%;
       list-style: none;
       font-weight: bold;
+
       li {
         a {
           text-decoration: none;
@@ -381,15 +461,19 @@ h3.normal {
     section {
       padding-top: 140px;
       display: block;
+
       .message {
         max-width: 650px;
       }
+
       .location {
         display: block;
         padding-left: 15px;
+
         .dateinfo {
           text-align: left;
         }
+
         .locate {
           text-align: left;
         }
@@ -399,6 +483,7 @@ h3.normal {
 
   .desk-container {
     display: flex;
+
     .program-list {
       display: flex;
       flex-direction: column;
@@ -407,4 +492,16 @@ h3.normal {
       margin-left: 5px;
     }
   }
-}
+
+  .partner-wrap {
+    section {
+      .partners {
+        //display: flex;
+        //flex-wrap: wrap;
+        //justify-content: center;
+        gap: 40px;
+        //align-items: center;
+      }
+    }
+  }
+}//END OF MEDIA
