@@ -47,6 +47,7 @@ body {
 
 .wrap > section, .wrap > div {
   width: 98%;
+  max-width: 1100px;
   margin: 0px auto;
   align-items: center;
 }
@@ -298,12 +299,62 @@ h3.normal {
   margin-bottom: 30px;
 }
 
+.header-wrap {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .speaker-list {
     grid-template-columns: auto auto;
   }
   .speaker {
     margin-left: 10px;
+  }
+  .mobile-logo-wrap {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: none;
+  }
+  .header-content {
+    display: flex;
+    gap: 10%;
+  }
+  .main-menu img {
+    width: 180px;
+  }
+  .menus ul {
+    display: flex;
+    padding: 0;
+    gap: 30%;
+    list-style: none;
+    font-weight: bold;
+  }
+  .menus ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+  .header-wrap {
+    display: flex;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  .main-wrap section {
+    padding-top: 140px;
+    display: block;
+  }
+  .main-wrap section .message {
+    max-width: 650px;
+  }
+  .main-wrap section .location {
+    display: block;
+    padding-left: 15px;
+  }
+  .main-wrap section .location .dateinfo {
+    text-align: left;
+  }
+  .main-wrap section .location .locate {
+    text-align: left;
   }
 }
 

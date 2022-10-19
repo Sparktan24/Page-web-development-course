@@ -53,6 +53,7 @@ img {
 
 .wrap > section, .wrap > div {
   width: 98%;
+  max-width: 1100px;
   margin: 0px auto;
   align-items: center;
 }
@@ -315,6 +316,10 @@ h3.normal {
   margin-bottom: 30px;
 }
 
+.header-wrap {
+  display: none;
+}
+
 @media (min-width: 768px){
   .speaker-list {
     grid-template-columns: auto auto;
@@ -322,5 +327,72 @@ h3.normal {
 
   .speaker {
     margin-left: 10px;
+  }
+
+  //REMOVE mobile nav
+  .mobile-logo-wrap {
+    display: none;
+  }
+  //REMOVE mobile menu button
+  .mobile-menu-button {
+    display: none;
+  }
+
+  .header-content {
+    display: flex;
+    gap: 10%;
+  }
+
+  .main-menu {
+    //display: flex;
+    //gap: 10%;
+    img {
+      width: 180px;
+    }
+  }
+
+  .menus {
+    //width: 40%;
+    ul {
+      display: flex;
+      padding: 0;
+      gap: 30%;
+      list-style: none;
+      font-weight: bold;
+      li {
+        a {
+          text-decoration: none;
+          color: grey
+        }
+      }
+    }
+  }
+
+  .header-wrap {
+    display: flex;
+    //flex-direction: column;
+    box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 30%);
+    position: relative;
+  }
+
+  //MAIN SECTION
+  .main-wrap {
+    section {
+      padding-top: 140px;
+      display: block;
+      .message {
+        max-width: 650px;
+      }
+      .location {
+        display: block;
+        padding-left: 15px;
+        .dateinfo {
+          text-align: left;
+        }
+        .locate {
+          text-align: left;
+        }
+      }
+    }
   }
 }
