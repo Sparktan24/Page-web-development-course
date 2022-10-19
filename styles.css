@@ -141,7 +141,6 @@ h1.normal {
   color: rgb(239, 81, 60);
   font-weight: bold;
   text-align: center;
-  width: 26%;
 }
 .program-sub-title p {
   margin: 0;
@@ -337,7 +336,8 @@ h3.normal {
   .header-wrap {
     display: flex;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9607843137);
   }
   .main-wrap section {
     padding-top: 140px;
@@ -355,6 +355,16 @@ h3.normal {
   }
   .main-wrap section .location .locate {
     text-align: left;
+  }
+  .desk-container {
+    display: flex;
+  }
+  .desk-container .program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 20%;
+    margin-left: 5px;
   }
 }
 

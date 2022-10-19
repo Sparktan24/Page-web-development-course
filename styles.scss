@@ -147,7 +147,7 @@ h1.normal {
   color: rgb(239, 81, 60);
   font-weight: bold;
   text-align: center;
-  width: 26%;
+  //width: 26%;
   p {
     margin: 0;
     width: 80px;
@@ -372,7 +372,8 @@ h3.normal {
     display: flex;
     //flex-direction: column;
     box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 30%);
-    position: relative;
+    position: fixed;
+    background: #fffffff5;
   }
 
   //MAIN SECTION
@@ -393,6 +394,17 @@ h3.normal {
           text-align: left;
         }
       }
+    }
+  }
+
+  .desk-container {
+    display: flex;
+    .program-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      width: 20%;
+      margin-left: 5px;
     }
   }
 }
