@@ -38,11 +38,13 @@ body {
   padding: 0 5%;
   height: -webkit-fill-available;
   z-index: 1;
+
   .mobile-menu-item {
     font-weight: bold;
     color: #fff;
     //padding: 0 25px;
     border-top: 1px solid #3c3f46;
+
     a {
       color: #fff;
       text-decoration: none;
@@ -82,9 +84,11 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 51px;
+
   #title-image {
     filter: drop-shadow(2px 4px 6px black);
   }
+
   .location-about {
     padding: 30px 0;
   }
@@ -217,6 +221,7 @@ h1.normal {
       color: #fff;
       margin-top: 20px;
       text-decoration: none;
+
       .button {
         color: #fff;
         background: #ec5242;
@@ -350,7 +355,7 @@ h1.normal {
     flex-direction: column;
     padding-top: 30px;
 
-    .partners{
+    .partners {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -401,7 +406,7 @@ h3.normal {
 }
 
 .ccl-info {
-  font-size: .750em;
+  font-size: 0.75em;
 }
 
 .content-cc {
@@ -430,7 +435,6 @@ h3.normal {
 // START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
   .main-program-wrap {
-
     .show-all-program {
       display: none;
     }
@@ -497,11 +501,13 @@ h3.normal {
       font-weight: bold;
 
       li {
+
         a {
           text-decoration: none;
-          color: grey
+          color: grey;
         }
       }
+
       li:hover {
         transform: scale(1.2);
       }
@@ -511,7 +517,7 @@ h3.normal {
   .header-wrap {
     display: flex;
     //flex-direction: column;
-    box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
     position: fixed;
     background: #fffffff5;
     z-index: 1;
@@ -540,6 +546,15 @@ h3.normal {
         }
       }
     }
+
+    .about-section {
+      display: flex;
+
+      .location-about {
+        padding-top: 40px;
+        padding-bottom: 60px;
+      }
+    }
   }
 
   .desk-container {
@@ -548,7 +563,7 @@ h3.normal {
     .program-list {
       display: flex;
       flex-direction: column;
-      gap: 0px;
+      gap: 0;
       width: 20%;
       margin-left: 5px;
     }
@@ -565,17 +580,6 @@ h3.normal {
       }
     }
   }
+}
 
-  //ABOUT PAGE
-  .main-wrap {
-    .about-section {
-      display: flex;
-
-      .location-about {
-        padding-top: 40px;
-        padding-bottom: 60px;
-      }
-    }
-  }
-
-}//END OF MEDIA
+//END OF MEDIA
