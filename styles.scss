@@ -70,7 +70,7 @@ section > img {
   width: 80%;
   opacity: 85%;
   padding: 0 5%;
-  height: -webkit-fill-available;
+  height: 100%;
   z-index: 1;
 
   .mobile-menu-item {
@@ -339,7 +339,6 @@ h1.normal {
   font-size: 13px;
 }
 
-
 .guide-line {
   width: 24px;
   border-top: 1px solid #c2c2c2;
@@ -451,7 +450,7 @@ h3.normal {
       }
     }
   }
-  
+
   .main-program-wrap {
     .show-all-program {
       display: none;
