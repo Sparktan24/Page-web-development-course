@@ -1,41 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Captstone Project
 
-> Capstone project
+> This is my capstone project about developerWeek.
 
 
 ## Built With
 
-- Html, CSS, JavaScript
-- Frameworks
-- Technologies used
+- Html, CSS(Sass), JavaScript
 
-## Live Demo (if available)
+## Live Page
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sparktan24.github.io/Page-web-development-course/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- Git installed
+- A html, javascript code editor (if you wish to edit the project).
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone the project from the repository.
 
 
 ## Authors
@@ -59,9 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+- Developer week logos and speakers information taken from: https://www.developerweek.com/
 
 ## 📝 License
 
