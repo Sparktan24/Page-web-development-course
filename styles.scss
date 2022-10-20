@@ -26,6 +26,43 @@ body {
   z-index: 1;
 }
 
+/////// HAMBURGUER MOBILE MENU  //////////////
+.mobile-menu-display {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  background: #272a32;
+  width: 80%;
+  opacity: 85%;
+  padding: 0 5%;
+  height: -webkit-fill-available;
+  .mobile-menu-item {
+    font-weight: bold;
+    color: #fff;
+    //padding: 0 25px;
+    border-top: 1px solid #3c3f46;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.align-self-fx-end {
+  align-self: flex-end;
+}
+
+#close-mobile-menu {
+  color: #fff;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #272a32;
+}
+
+////////////////////////
+
 .mobile-menu-wrap .mobile-menu-button img {
   width: 20px;
 }
@@ -44,6 +81,9 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 51px;
+  .location-about {
+    padding: 30px 0;
+  }
 }
 
 .wrap {
@@ -117,6 +157,7 @@ section>img {
 h1.normal {
   font-weight: normal;
   font-size: 24px;
+  text-align: center;
 }
 
 .guide-bar {
@@ -371,6 +412,7 @@ h3.normal {
   display: none;
 }
 
+// START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
   .main-program-wrap {
 
@@ -504,4 +546,17 @@ h3.normal {
       }
     }
   }
+
+  //ABOUT PAGE
+  .main-wrap {
+    .about-section {
+      display: flex;
+
+      .location-about {
+        padding-top: 40px;
+        padding-bottom: 60px;
+      }
+    }
+  }
+
 }//END OF MEDIA
