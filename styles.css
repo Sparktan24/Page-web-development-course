@@ -33,6 +33,7 @@ body {
   opacity: 85%;
   padding: 0 5%;
   height: -webkit-fill-available;
+  z-index: 1;
 }
 .mobile-menu-display .mobile-menu-item {
   font-weight: bold;
@@ -72,6 +73,9 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 51px;
+}
+.main-wrap section #title-image {
+  filter: drop-shadow(2px 4px 6px black);
 }
 .main-wrap section .location-about {
   padding: 30px 0;
@@ -202,13 +206,23 @@ h1.normal {
   margin-top: 20px;
   text-decoration: none;
 }
-.main-program-wrap .show-all-program .button {
+.main-program-wrap .show-all-program a .button {
+  color: #fff;
   background: #ec5242;
+  cursor: pointer;
   width: 160px;
   height: 48px;
   transition: all 0.5s ease-out;
   border: none;
   font-weight: bold;
+}
+.main-program-wrap .show-all-program a .button:active {
+  background-color: #ff6106;
+}
+.main-program-wrap .show-all-program a .button:hover {
+  background: #fff5e1;
+  color: #ec5242;
+  transform: scale(1.1);
 }
 
 /*
@@ -428,11 +442,15 @@ h3.normal {
     text-decoration: none;
     color: grey;
   }
+  .menus ul li:hover {
+    transform: scale(1.2);
+  }
   .header-wrap {
     display: flex;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
     position: fixed;
     background: rgba(255, 255, 255, 0.9607843137);
+    z-index: 1;
   }
   .main-wrap section {
     padding-top: 140px;

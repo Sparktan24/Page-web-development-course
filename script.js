@@ -50,12 +50,11 @@ const speakers = [
 ];
 
 const speakerContainer = document.querySelector('.speaker-list');
-console.log(speakerContainer);
+
 speakers.forEach((speaker) => {
   const div = document.createElement('div');
 
   div.classList.add('speaker');
-  //div.classList.add('flex');
   let addElements = '';
   addElements += `
   <div class="speaker flex">
@@ -78,5 +77,4 @@ speakers.forEach((speaker) => {
 
   div.innerHTML = addElements;
   speakerContainer.appendChild(div);
-
 });

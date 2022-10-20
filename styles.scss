@@ -37,6 +37,7 @@ body {
   opacity: 85%;
   padding: 0 5%;
   height: -webkit-fill-available;
+  z-index: 1;
   .mobile-menu-item {
     font-weight: bold;
     color: #fff;
@@ -81,6 +82,9 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 51px;
+  #title-image {
+    filter: drop-shadow(2px 4px 6px black);
+  }
   .location-about {
     padding: 30px 0;
   }
@@ -213,15 +217,26 @@ h1.normal {
       color: #fff;
       margin-top: 20px;
       text-decoration: none;
-    }
+      .button {
+        color: #fff;
+        background: #ec5242;
+        cursor: pointer;
+        width: 160px;
+        height: 48px;
+        transition: all 0.5s ease-out;
+        border: none;
+        font-weight: bold;
+      }
 
-    .button {
-      background: #ec5242;
-      width: 160px;
-      height: 48px;
-      transition: all 0.5s ease-out;
-      border: none;
-      font-weight: bold;
+      .button:active {
+        background-color: #ff6106;
+      }
+
+      .button:hover {
+        background: #fff5e1;
+        color: #ec5242;
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -487,6 +502,9 @@ h3.normal {
           color: grey
         }
       }
+      li:hover {
+        transform: scale(1.2);
+      }
     }
   }
 
@@ -496,6 +514,7 @@ h3.normal {
     box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 30%);
     position: fixed;
     background: #fffffff5;
+    z-index: 1;
   }
 
   //MAIN SECTION
