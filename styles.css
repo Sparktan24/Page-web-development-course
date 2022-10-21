@@ -105,6 +105,20 @@ section > img {
   align-items: center;
 }
 
+#secondary-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+}
+#secondary-title div {
+  color: #ee8649;
+}
+
 .main-wrap {
   font-size: 15px;
   width: 90%;
@@ -457,20 +471,6 @@ h3.normal {
   background: #fff5e1;
   color: #ec5242;
   transform: scale(1.1);
-}
-
-#secondary-title {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 10px;
-  color: #ec5242;
-  font-family: "COCOGOOSE", sans-serif;
-  font-size: 40px;
-  filter: drop-shadow(2px 4px 6px black);
-  font-weight: bolder;
-}
-#secondary-title div {
-  color: #ee8649;
 }
 
 @media (min-width: 768px) {
