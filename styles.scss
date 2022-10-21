@@ -11,7 +11,7 @@ body {
   color: rgb(51, 51, 51);
 }
 
-section>img {
+section > img {
   width: 90%;
 }
 
@@ -114,8 +114,8 @@ section>img {
   width: 20px;
 }
 
-.wrap>section,
-.wrap>div {
+.wrap > section,
+.wrap > div {
   width: 98%;
   max-width: 1100px;
   margin: 0 auto;
@@ -767,5 +767,3 @@ h3.normal {
     }
   }
 }
-
-//END OF MEDIA
