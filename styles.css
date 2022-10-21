@@ -421,22 +421,6 @@ h3.normal {
   display: none;
 }
 
-.about-section img {
-  width: 70%;
-}
-.about-section .message {
-  background-color: #fff;
-  border: 3px solid rgba(223, 223, 223, 0.7882352941);
-  text-align: center;
-}
-.about-section .location-about .dateinfo {
-  text-align: center;
-}
-.about-section .location-about .locate {
-  text-align: center;
-  font-weight: bold;
-}
-
 .past-winners section {
   display: flex;
   flex-direction: column;
@@ -475,6 +459,20 @@ h3.normal {
   transform: scale(1.1);
 }
 
+#secondary-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+}
+#secondary-title div {
+  color: #ee8649;
+}
+
 @media (min-width: 768px) {
   #about-header {
     position: fixed;
@@ -485,6 +483,20 @@ h3.normal {
     position: fixed;
     z-index: 1;
     width: 100%;
+  }
+  .menus ul {
+    display: flex;
+    padding: 0;
+    gap: 30%;
+    list-style: none;
+    font-weight: bold;
+  }
+  .menus ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+  .menus ul li:hover {
+    transform: scale(1.2);
   }
   .main-program-wrap .show-all-program {
     display: none;
@@ -500,20 +512,6 @@ h3.normal {
     margin-top: 20px;
     border-bottom: 1px solid #fff;
     text-decoration: none;
-  }
-  .menus ul {
-    display: flex;
-    padding: 0;
-    gap: 30%;
-    list-style: none;
-    font-weight: bold;
-  }
-  .menus ul li a {
-    text-decoration: none;
-    color: grey;
-  }
-  .menus ul li:hover {
-    transform: scale(1.2);
   }
   .top-menu-wrap {
     display: flex;
@@ -583,6 +581,21 @@ h3.normal {
   }
   #secondary-title div {
     color: #ee8649;
+  }
+  .about-section img {
+    width: 70%;
+  }
+  .about-section .message {
+    background-color: #fff;
+    border: 3px solid rgba(223, 223, 223, 0.7882352941);
+    text-align: center;
+  }
+  .about-section .location-about .dateinfo {
+    text-align: center;
+  }
+  .about-section .location-about .locate {
+    text-align: center;
+    font-weight: bold;
   }
   .main-wrap section {
     padding-top: 140px;

@@ -462,42 +462,26 @@ h3.normal {
   display: none;
 }
 
-.about-section {
-  img {
-    width: 70%;
-  }
-
-  .message {
-    background-color: #fff;
-    border: 3px solid #dfdfdfc9;
-    text-align: center;
-  }
-  .location-about {
-    .dateinfo {
-      text-align: center;
-    }
-    .locate {
-      text-align: center;
-      font-weight: bold;
-    }
-  }
-}
-
 .past-winners {
   section {
     display: flex;
     flex-direction: column;
+
     .guide-bar {
       margin: 0 auto 40px;
     }
+
     .normal {
       margin-top: 40px;
       margin-bottom: 0;
     }
+
     .past-winners-list {
       margin-bottom: 50px;
+
       .past-winner {
         margin-bottom: 15px;
+
         a {
           button {
             font-size: 25px;
@@ -515,7 +499,7 @@ h3.normal {
           button:active {
             background-color: #ff6106;
           }
-    
+
           button:hover {
             background: #fff5e1;
             color: #ec5242;
@@ -524,6 +508,21 @@ h3.normal {
         }
       }
     }
+  }
+}
+
+#secondary-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+
+  div {
+    color: #ee8649;
   }
 }
 
@@ -539,6 +538,28 @@ h3.normal {
     position: fixed;
     z-index: 1;
     width: 100%;
+  }
+
+  .menus {
+    //width: 40%;
+    ul {
+      display: flex;
+      padding: 0;
+      gap: 30%;
+      list-style: none;
+      font-weight: bold;
+
+      li {
+        a {
+          text-decoration: none;
+          color: grey;
+        }
+      }
+
+      li:hover {
+        transform: scale(1.2);
+      }
+    }
   }
 
   .main-program-wrap {
@@ -561,29 +582,6 @@ h3.normal {
     }
   }
 
-  .menus {
-    //width: 40%;
-    ul {
-      display: flex;
-      padding: 0;
-      gap: 30%;
-      list-style: none;
-      font-weight: bold;
-
-      li {
-        
-        a {
-          text-decoration: none;
-          color: grey;
-        }
-      }
-
-      li:hover {
-        transform: scale(1.2);
-      }
-    }
-  }
-
   .top-menu-wrap {
     display: flex;
     background-color: #272a32;
@@ -598,7 +596,6 @@ h3.normal {
         list-style: none;
 
         li {
-
           a {
             color: #fff;
             text-decoration: none;
@@ -613,9 +610,7 @@ h3.normal {
   }
 
   .past-winners {
-
     section {
-
       .past-winners-list {
         display: flex;
         flex-wrap: wrap;
@@ -683,9 +678,32 @@ h3.normal {
     //color: #ec5242;
     //font-size: 80px;
     margin-top: 60px;
-    
+
     div {
       color: #ee8649;
+    }
+  }
+
+  .about-section {
+    img {
+      width: 70%;
+    }
+  
+    .message {
+      background-color: #fff;
+      border: 3px solid #dfdfdfc9;
+      text-align: center;
+    }
+  
+    .location-about {
+      .dateinfo {
+        text-align: center;
+      }
+  
+      .locate {
+        text-align: center;
+        font-weight: bold;
+      }
     }
   }
 
