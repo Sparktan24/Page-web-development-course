@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/pjl8ymm.css");
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ section > img {
   width: 100%;
   margin: 1em 0;
 }
+
 .mobile-logo-wrap img {
   width: 180px;
 }
@@ -33,6 +35,7 @@ section > img {
   justify-content: center;
   font-size: 16px;
 }
+
 .see-more-speakers .button-speakers {
   background: transparent;
   border: 1px solid gray;
@@ -40,6 +43,7 @@ section > img {
   width: 90%;
   height: 50px;
 }
+
 .see-more-speakers a {
   font-family: lato, sans-serif;
   text-decoration: none;
@@ -50,6 +54,7 @@ section > img {
   margin-top: 15px;
   margin-bottom: 30px;
 }
+
 .logos img {
   border: 0;
 }
@@ -66,11 +71,13 @@ section > img {
   height: 100%;
   z-index: 1;
 }
+
 .mobile-menu-display .mobile-menu-item {
   font-weight: bold;
   color: #fff;
   border-top: 1px solid #3c3f46;
 }
+
 .mobile-menu-display .mobile-menu-item a {
   color: #fff;
   text-decoration: none;
@@ -96,6 +103,7 @@ section > img {
 .ccl-logo {
   padding-top: 20px;
 }
+
 .ccl-logo img {
   width: 200px;
 }
@@ -122,6 +130,7 @@ section > img {
   filter: drop-shadow(2px 4px 6px black);
   font-weight: bolder;
 }
+
 #secondary-title div {
   color: #ee8649;
 }
@@ -139,15 +148,18 @@ section > img {
   flex-direction: column;
   padding-top: 51px;
 }
+
 .main-wrap section .dates-container {
   align-self: flex-start;
   margin: 0 10px;
 }
+
 .main-wrap section .dates-container img {
   height: 40px;
   width: 350px;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(350deg) saturate(600%) contrast(0.8);
 }
+
 .main-wrap section #main-title {
   display: flex;
   flex-wrap: wrap;
@@ -159,12 +171,15 @@ section > img {
   filter: drop-shadow(2px 4px 6px black);
   font-weight: bolder;
 }
+
 .main-wrap section #main-title div {
   color: #ee8649;
 }
+
 .main-wrap section #title-image {
   filter: drop-shadow(2px 4px 6px black);
 }
+
 .main-wrap section .location-about {
   padding: 30px 0;
 }
@@ -214,17 +229,20 @@ section > img {
   padding-bottom: 80px;
   height: auto;
 }
+
 .main-program-wrap .show-all-program {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-size: 16px;
 }
+
 .main-program-wrap .show-all-program a {
   color: #fff;
   margin-top: 20px;
   text-decoration: none;
 }
+
 .main-program-wrap .show-all-program a .button {
   color: #fff;
   background: #ec5242;
@@ -235,9 +253,11 @@ section > img {
   border: none;
   font-weight: bold;
 }
+
 .main-program-wrap .show-all-program a .button:active {
   background-color: #ff6106;
 }
+
 .main-program-wrap .show-all-program a .button:hover {
   background: #fff5e1;
   color: #ec5242;
@@ -293,6 +313,7 @@ h2.normal {
   font-weight: bold;
   text-align: center;
 }
+
 .program-sub-title p {
   margin: 0;
   width: 80px;
@@ -342,6 +363,7 @@ h2.normal {
   font-size: 22px;
   margin: 0;
 }
+
 .speaker-name p {
   margin: 0;
 }
@@ -350,6 +372,7 @@ h2.normal {
   font-size: 13px;
   color: #ff4f38;
 }
+
 .organize p {
   margin: 0.5em 0;
 }
@@ -379,6 +402,7 @@ h2.normal {
   flex-direction: column;
   padding-top: 30px;
 }
+
 .partner-wrap section .partners {
   display: flex;
   flex-wrap: wrap;
@@ -386,6 +410,7 @@ h2.normal {
   gap: 20px;
   align-items: center;
 }
+
 .partner-wrap section .guide-bar {
   margin-bottom: 30px;
 }
@@ -411,6 +436,7 @@ h3.normal {
   background-color: #2e2e2e;
   padding: 24px 0;
 }
+
 .footer-black .flex {
   justify-content: center;
 }
@@ -445,19 +471,24 @@ h3.normal {
   display: flex;
   flex-direction: column;
 }
+
 .past-winners section .guide-bar {
   margin: 0 auto 40px;
 }
+
 .past-winners section .normal {
   margin-top: 40px;
   margin-bottom: 0;
 }
+
 .past-winners section .past-winners-list {
   margin-bottom: 50px;
 }
+
 .past-winners section .past-winners-list .past-winner {
   margin-bottom: 15px;
 }
+
 .past-winners section .past-winners-list .past-winner a button {
   font-size: 25px;
   color: #fff;
@@ -470,9 +501,11 @@ h3.normal {
   background-image: url(Images/develope-week-bg-about.jpg);
   background-size: 350px;
 }
+
 .past-winners section .past-winners-list .past-winner a button:active {
   background-color: #ff6106;
 }
+
 .past-winners section .past-winners-list .past-winner a button:hover {
   background: #fff5e1;
   color: #ec5242;
@@ -485,11 +518,13 @@ h3.normal {
     z-index: 1;
     width: 100%;
   }
+
   #index-header {
     position: fixed;
     z-index: 1;
     width: 100%;
   }
+
   .menus ul {
     display: flex;
     padding: 0;
@@ -498,28 +533,34 @@ h3.normal {
     font-weight: bold;
     align-items: center;
   }
+
   .menus ul li a {
     text-decoration: none;
     color: grey;
   }
+
   .menus ul li:hover {
     transform: scale(1.2);
   }
+
   .main-program-wrap .show-all-program {
     display: none;
   }
+
   .main-program-wrap .show-all-program-desk {
     display: flex;
     width: fit-content;
     margin-top: 20px;
     font-size: 16px;
   }
+
   .main-program-wrap .show-all-program-desk a {
     color: #fff;
     margin-top: 20px;
     border-bottom: 1px solid #fff;
     text-decoration: none;
   }
+
   .top-menu-wrap {
     display: flex;
     background-color: #272a32;
@@ -527,54 +568,68 @@ h3.normal {
     height: 35px;
     align-items: center;
   }
+
   .top-menu-wrap .container-width {
     display: flex;
     justify-content: flex-end;
     max-width: 800px;
   }
+
   .top-menu-wrap .top-menu {
     font-size: 13px;
   }
+
   .top-menu-wrap .top-menu ul {
     display: flex;
     gap: 15px;
     list-style: none;
   }
+
   .top-menu-wrap .top-menu ul li a {
     color: #fff;
     text-decoration: none;
   }
+
   .top-menu-wrap .top-menu ul li:hover {
     transform: scale(1.1);
   }
+
   .past-winners section .past-winners-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
+
   .speaker-list {
     grid-template-columns: auto auto;
   }
+
   .speaker {
     margin-left: 10px;
   }
+
   .see-more-speakers {
     display: none;
   }
+
   .mobile-logo-wrap {
     display: none;
   }
+
   .mobile-menu-button {
     display: none;
   }
+
   .header-content {
     display: flex;
     gap: 200px;
   }
+
   .main-menu img {
     width: 180px;
   }
+
   .header-wrap {
     display: flex;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
@@ -582,63 +637,79 @@ h3.normal {
     background: rgba(255, 255, 255, 0.9607843137);
     z-index: 1;
   }
+
   #secondary-title {
     font-size: 58px;
     margin-top: 60px;
   }
+
   .about-section img {
     width: 70%;
   }
+
   .about-section .message {
     background-color: #fff;
     border: 3px solid rgba(223, 223, 223, 0.7882352941);
     text-align: center;
   }
+
   .about-section .location-about .dateinfo {
     text-align: center;
   }
+
   .about-section .location-about .locate {
     text-align: center;
     font-weight: bold;
   }
+
   .main-wrap section {
     padding-top: 140px;
     display: block;
   }
+
   .main-wrap section #main-title {
     color: #ec5242;
     font-size: 80px;
     margin-top: 60px;
   }
+
   .main-wrap section .message {
     max-width: 60%;
   }
+
   .main-wrap section .msg-about {
     max-width: 80%;
   }
+
   .main-wrap section .location {
     display: block;
     padding-left: 15px;
     margin-bottom: 100px;
   }
+
   .main-wrap section .location .dateinfo {
     font-size: 50px;
     text-align: left;
   }
+
   .main-wrap section .location .locate {
     font-size: 20px;
     text-align: left;
   }
+
   .main-wrap .about-section {
     display: flex;
   }
+
   .main-wrap .about-section .location-about {
     padding-top: 40px;
     padding-bottom: 60px;
   }
+
   .desk-container {
     display: flex;
   }
+
   .desk-container .program-list {
     display: flex;
     flex-direction: column;
@@ -646,12 +717,15 @@ h3.normal {
     width: 20%;
     margin-left: 5px;
   }
+
   .partner-wrap section .partners {
     gap: 40px;
   }
+
   .site-footer .footer-black {
     height: 200px;
   }
+
   .site-footer .footer-black div .content-cc {
     display: flex;
     gap: 10%;
@@ -660,6 +734,7 @@ h3.normal {
     justify-content: center;
     align-items: center;
   }
+
   #register-button {
     color: #ec5242;
     background: #fff;
@@ -670,9 +745,11 @@ h3.normal {
     border: 4px solid #ec5242;
     font-weight: bold;
   }
+
   #register-button:active {
     background-color: #ff6106;
   }
+
   #register-button:hover {
     background: #fff5e1;
     color: #ec5242;
