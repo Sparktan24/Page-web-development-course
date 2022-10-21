@@ -1,56 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Captstone Project
 
-> Description the project.
+> This is my capstone project about developerWeek wich is the largest developer conference & event series including the DeveloperWeek 2023 Conference & Expo, 1,000+ attendee hackathon, 800+ attendee tech hiring expo, and a series of workshops, technical talks, and keynotes.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html, CSS(Sass), JavaScript
 
-## Live Demo (if available)
+## Live Page
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sparktan24.github.io/Page-web-development-course/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- Git installed
+- A html, javascript code editor (if you wish to edit the project).
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone the project from the repository.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Jesus Molina**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Sparktan24](https://github.com/Sparktan24)
+- Twitter: [@Sparktan1](https://twitter.com/Sparktan1)
+- LinkedIn: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +47,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+- Developer week logos and speakers information taken from: https://www.developerweek.com/
 
 ## 📝 License
 
