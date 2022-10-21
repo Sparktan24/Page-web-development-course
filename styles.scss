@@ -511,21 +511,6 @@ h3.normal {
   }
 }
 
-#secondary-title {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 10px;
-  color: #ec5242;
-  font-family: "COCOGOOSE", sans-serif;
-  font-size: 40px;
-  filter: drop-shadow(2px 4px 6px black);
-  font-weight: bolder;
-
-  div {
-    color: #ee8649;
-  }
-}
-
 // START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
   #about-header {
@@ -688,22 +673,37 @@ h3.normal {
     img {
       width: 70%;
     }
-  
+
     .message {
       background-color: #fff;
       border: 3px solid #dfdfdfc9;
       text-align: center;
     }
-  
+
     .location-about {
       .dateinfo {
         text-align: center;
       }
-  
+
       .locate {
         text-align: center;
         font-weight: bold;
       }
+    }
+  }
+
+  #secondary-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    color: #ec5242;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 40px;
+    filter: drop-shadow(2px 4px 6px black);
+    font-weight: bolder;
+  
+    div {
+      color: #ee8649;
     }
   }
 
