@@ -1,6 +1,9 @@
 @import url("https://use.typekit.net/pjl8ymm.css");
 $font-lato: lato, sans-serif;
 
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+$font-cocogoose: 'COCOGOOSE', sans-serif;
+
 body {
   margin: 0;
   padding: 0;
@@ -126,6 +129,18 @@ section > img {
   flex-direction: column;
   padding-top: 51px;
 
+  #main-title {
+    display: flex;
+    color: #fff;
+    font-family: $font-cocogoose;
+    font-size: 58px;
+    filter: drop-shadow(2px 4px 6px black);
+    font-weight: bolder;
+    div {
+      color: #ee4980;
+    }
+  }
+
   #title-image {
     filter: drop-shadow(2px 4px 6px black);
   }
@@ -162,25 +177,23 @@ section > img {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 1.125em;
   height: 95px;
-  padding-top: 40px;
   width: 100%;
 }
 
 .location .dateinfo {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 30px;
   width: 90%;
-  text-align: center;
   margin-bottom: 4px;
   letter-spacing: 0;
 }
 
 .location .locate {
-  font-size: 15px;
+  font-size: 20px;
   width: 90%;
-  text-align: center;
 }
 
 .main-program-wrap {
@@ -234,6 +247,12 @@ section > img {
 }
 
 h1.normal {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2.normal {
   font-weight: normal;
   font-size: 24px;
   text-align: center;
@@ -426,8 +445,110 @@ h3.normal {
   display: none;
 }
 
+.about-section {
+  img {
+    width: 80%;
+  }
+  .message {
+    background-color: #fff;
+    border: 3px solid #dfdfdfc9;
+    text-align: center;
+  }
+  .location-about {
+    .dateinfo {
+      text-align: center;
+    }
+    .locate {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
+
+.past-winners {
+  section {
+    display: flex;
+    flex-direction: column;
+    .guide-bar {
+      margin: 0 auto 40px;
+    }
+    .normal {
+      margin-top: 40px;
+      margin-bottom: 0;
+    }
+    .past-winners-list {
+      margin-bottom: 50px;
+      .past-winner {
+        margin-bottom: 15px;
+        a {
+          button {
+            font-size: 25px;
+            color: #fff;
+            background: #ec5242;
+            cursor: pointer;
+            width: 350px;
+            height: 200px;
+            transition: all 0.5s ease-out;
+            border: none;
+            background-image: url(Images/develope-week-bg-about.jpg);
+            background-size: 350px;
+          }
+
+          button:active {
+            background-color: #ff6106;
+          }
+    
+          button:hover {
+            background: #fff5e1;
+            color: #ec5242;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
 // START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
+  #about-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .top-menu-wrap {
+    display: flex;
+    background-color: #272a32;
+    justify-content: flex-end;
+    .top-menu {
+      margin-right: 12%;
+      ul {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        li {
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+        li:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .past-winners {
+    section {
+      .past-winners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+  }
   .menus {
 
     //width: 40%;
@@ -523,18 +644,21 @@ h3.normal {
       display: block;
 
       .message {
-        max-width: 650px;
+        max-width: 80%;
       }
 
       .location {
         display: block;
         padding-left: 15px;
+        margin-bottom: 100px;
 
         .dateinfo {
+          font-size: 50px;
           text-align: left;
         }
 
         .locate {
+          font-size: 20px;
           text-align: left;
         }
       }

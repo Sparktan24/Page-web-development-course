@@ -2,7 +2,7 @@
 
 # Captstone Project
 
-> This is my capstone project about developerWeek.
+> This is my capstone project about developerWeek wich is the largest developer conference & event series including the DeveloperWeek 2023 Conference & Expo, 1,000+ attendee hackathon, 800+ attendee tech hiring expo, and a series of workshops, technical talks, and keynotes.
 
 
 ## Built With

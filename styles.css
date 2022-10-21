@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/pjl8ymm.css");
-
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +17,6 @@ section > img {
   width: 100%;
   margin: 1em 0;
 }
-
 .mobile-logo-wrap img {
   width: 180px;
 }
@@ -34,7 +33,6 @@ section > img {
   justify-content: center;
   font-size: 16px;
 }
-
 .see-more-speakers .button-speakers {
   background: transparent;
   border: 1px solid gray;
@@ -42,7 +40,6 @@ section > img {
   width: 90%;
   height: 50px;
 }
-
 .see-more-speakers a {
   font-family: lato, sans-serif;
   text-decoration: none;
@@ -53,7 +50,6 @@ section > img {
   margin-top: 15px;
   margin-bottom: 30px;
 }
-
 .logos img {
   border: 0;
 }
@@ -70,13 +66,11 @@ section > img {
   height: 100%;
   z-index: 1;
 }
-
 .mobile-menu-display .mobile-menu-item {
   font-weight: bold;
   color: #fff;
   border-top: 1px solid #3c3f46;
 }
-
 .mobile-menu-display .mobile-menu-item a {
   color: #fff;
   text-decoration: none;
@@ -116,11 +110,20 @@ section > img {
   flex-direction: column;
   padding-top: 51px;
 }
-
+.main-wrap section #main-title {
+  display: flex;
+  color: #fff;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 58px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+}
+.main-wrap section #main-title div {
+  color: #ee4980;
+}
 .main-wrap section #title-image {
   filter: drop-shadow(2px 4px 6px black);
 }
-
 .main-wrap section .location-about {
   padding: 30px 0;
 }
@@ -152,25 +155,23 @@ section > img {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 1.125em;
   height: 95px;
-  padding-top: 40px;
   width: 100%;
 }
 
 .location .dateinfo {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 30px;
   width: 90%;
-  text-align: center;
   margin-bottom: 4px;
   letter-spacing: 0;
 }
 
 .location .locate {
-  font-size: 15px;
+  font-size: 20px;
   width: 90%;
-  text-align: center;
 }
 
 .main-program-wrap {
@@ -180,20 +181,17 @@ section > img {
   padding-bottom: 80px;
   height: auto;
 }
-
 .main-program-wrap .show-all-program {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-size: 16px;
 }
-
 .main-program-wrap .show-all-program a {
   color: #fff;
   margin-top: 20px;
   text-decoration: none;
 }
-
 .main-program-wrap .show-all-program a .button {
   color: #fff;
   background: #ec5242;
@@ -204,11 +202,9 @@ section > img {
   border: none;
   font-weight: bold;
 }
-
 .main-program-wrap .show-all-program a .button:active {
   background-color: #ff6106;
 }
-
 .main-program-wrap .show-all-program a .button:hover {
   background: #fff5e1;
   color: #ec5242;
@@ -224,6 +220,12 @@ section > img {
 }
 
 h1.normal {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2.normal {
   font-weight: normal;
   font-size: 24px;
   text-align: center;
@@ -258,7 +260,6 @@ h1.normal {
   font-weight: bold;
   text-align: center;
 }
-
 .program-sub-title p {
   margin: 0;
   width: 80px;
@@ -308,7 +309,6 @@ h1.normal {
   font-size: 22px;
   margin: 0;
 }
-
 .speaker-name p {
   margin: 0;
 }
@@ -317,7 +317,6 @@ h1.normal {
   font-size: 13px;
   color: #ff4f38;
 }
-
 .organize p {
   margin: 0.5em 0;
 }
@@ -347,7 +346,6 @@ h1.normal {
   flex-direction: column;
   padding-top: 30px;
 }
-
 .partner-wrap section .partners {
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +353,6 @@ h1.normal {
   gap: 20px;
   align-items: center;
 }
-
 .partner-wrap section .guide-bar {
   margin-bottom: 30px;
 }
@@ -412,7 +409,92 @@ h3.normal {
   display: none;
 }
 
+.about-section img {
+  width: 80%;
+}
+.about-section .message {
+  background-color: #fff;
+  border: 3px solid rgba(223, 223, 223, 0.7882352941);
+  text-align: center;
+}
+.about-section .location-about .dateinfo {
+  text-align: center;
+}
+.about-section .location-about .locate {
+  text-align: center;
+  font-weight: bold;
+}
+
+.past-winners section {
+  display: flex;
+  flex-direction: column;
+}
+.past-winners section .guide-bar {
+  margin: 0 auto 40px;
+}
+.past-winners section .normal {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.past-winners section .past-winners-list {
+  margin-bottom: 50px;
+}
+.past-winners section .past-winners-list .past-winner {
+  margin-bottom: 15px;
+}
+.past-winners section .past-winners-list .past-winner a button {
+  font-size: 25px;
+  color: #fff;
+  background: #ec5242;
+  cursor: pointer;
+  width: 350px;
+  height: 200px;
+  transition: all 0.5s ease-out;
+  border: none;
+  background-image: url(Images/develope-week-bg-about.jpg);
+  background-size: 350px;
+}
+.past-winners section .past-winners-list .past-winner a button:active {
+  background-color: #ff6106;
+}
+.past-winners section .past-winners-list .past-winner a button:hover {
+  background: #fff5e1;
+  color: #ec5242;
+  transform: scale(1.1);
+}
+
 @media (min-width: 768px) {
+  #about-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .top-menu-wrap {
+    display: flex;
+    background-color: #272a32;
+    justify-content: flex-end;
+  }
+  .top-menu-wrap .top-menu {
+    margin-right: 12%;
+  }
+  .top-menu-wrap .top-menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+  .top-menu-wrap .top-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .top-menu-wrap .top-menu ul li:hover {
+    transform: scale(1.1);
+  }
+  .past-winners section .past-winners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
   .menus ul {
     display: flex;
     padding: 0;
@@ -420,63 +502,50 @@ h3.normal {
     list-style: none;
     font-weight: bold;
   }
-
   .menus ul li a {
     text-decoration: none;
     color: grey;
   }
-
   .menus ul li:hover {
     transform: scale(1.2);
   }
-
   .main-program-wrap .show-all-program {
     display: none;
   }
-
   .main-program-wrap .show-all-program-desk {
     display: flex;
     width: fit-content;
     margin-top: 20px;
     font-size: 16px;
   }
-
   .main-program-wrap .show-all-program-desk a {
     color: #fff;
     margin-top: 20px;
     border-bottom: 1px solid #fff;
     text-decoration: none;
   }
-
   .speaker-list {
     grid-template-columns: auto auto;
   }
-
   .speaker {
     margin-left: 10px;
   }
-
   .see-more-speakers {
     display: none;
   }
-
   .mobile-logo-wrap {
     display: none;
   }
-
   .mobile-menu-button {
     display: none;
   }
-
   .header-content {
     display: flex;
     gap: 10%;
   }
-
   .main-menu img {
     width: 180px;
   }
-
   .header-wrap {
     display: flex;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
@@ -484,42 +553,36 @@ h3.normal {
     background: rgba(255, 255, 255, 0.9607843137);
     z-index: 1;
   }
-
   .main-wrap section {
     padding-top: 140px;
     display: block;
   }
-
   .main-wrap section .message {
-    max-width: 650px;
+    max-width: 80%;
   }
-
   .main-wrap section .location {
     display: block;
     padding-left: 15px;
+    margin-bottom: 100px;
   }
-
   .main-wrap section .location .dateinfo {
+    font-size: 50px;
     text-align: left;
   }
-
   .main-wrap section .location .locate {
+    font-size: 20px;
     text-align: left;
   }
-
   .main-wrap .about-section {
     display: flex;
   }
-
   .main-wrap .about-section .location-about {
     padding-top: 40px;
     padding-bottom: 60px;
   }
-
   .desk-container {
     display: flex;
   }
-
   .desk-container .program-list {
     display: flex;
     flex-direction: column;
@@ -527,8 +590,9 @@ h3.normal {
     width: 20%;
     margin-left: 5px;
   }
-
   .partner-wrap section .partners {
     gap: 40px;
   }
-} /*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
