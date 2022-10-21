@@ -511,6 +511,24 @@ h3.normal {
   }
 }
 
+    #secondary-title {
+      display: flex;
+        flex-wrap: wrap;
+        margin: 0 10px;
+        color: #ec5242;
+        font-family: $font-cocogoose;
+        font-size: 40px;
+        filter: drop-shadow(2px 4px 6px black);
+        font-weight: bolder;
+        //color: #ec5242;
+        //font-size: 80px;
+    
+        div {
+          color: #ee8649;
+        }
+    }
+
+
 // START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
   #about-header {
@@ -652,21 +670,8 @@ h3.normal {
 
   //MAIN SECTION
   #secondary-title {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 10px;
-    color: #ec5242;
-    font-family: $font-cocogoose;
     font-size: 58px;
-    filter: drop-shadow(2px 4px 6px black);
-    font-weight: bolder;
-    //color: #ec5242;
-    //font-size: 80px;
     margin-top: 60px;
-
-    div {
-      color: #ee8649;
-    }
   }
 
   .about-section {
