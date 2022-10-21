@@ -446,19 +446,27 @@ h3.normal {
   color: #fff;
   background-color: #2e2e2e;
   padding: 24px 0;
+
+  .flex {
+    justify-content: center;
+  }
 }
 
 .ccl-logo {
   padding-top: 20px;
+
+  img {
+    width: 200px;
+  }
 }
 
 .ccl-info {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 .content-cc {
   display: flex;
-  gap: 30px;
+  gap: 10%;
   padding: 0 10%;
 }
 
@@ -548,9 +556,10 @@ h3.normal {
     ul {
       display: flex;
       padding: 0;
-      gap: 30%;
+      gap: 50px;
       list-style: none;
       font-weight: bold;
+      align-items: center;
 
       li {
         a {
@@ -589,9 +598,18 @@ h3.normal {
     display: flex;
     background-color: #272a32;
     justify-content: flex-end;
+    height: 35px;
+    align-items: center;
+
+    .container-width {
+      display: flex;
+      justify-content: flex-end;
+      max-width: 800px;
+    }
 
     .top-menu {
-      margin-right: 12%;
+      //margin-right: 12%;
+      font-size: 13px;
 
       ul {
         display: flex;
@@ -647,7 +665,7 @@ h3.normal {
 
   .header-content {
     display: flex;
-    gap: 10%;
+    gap: 200px;
   }
 
   .main-menu {
@@ -765,5 +783,42 @@ h3.normal {
         //align-items: center;
       }
     }
+  }
+
+  .site-footer {
+    .footer-black {
+      height: 200px;
+      div {
+        .content-cc {
+          display: flex;
+          gap: 10%;
+          padding: 0 10%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  #register-button {
+    color: #ec5242;
+    background: #fff;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    transition: all 0.5s ease-out;
+    border: 4px solid #ec5242;
+    font-weight: bold;
+  }
+
+  #register-button:active {
+    background-color: #ff6106;
+  }
+
+  #register-button:hover {
+    background: #fff5e1;
+    color: #ec5242;
+    transform: scale(1.1);
   }
 }
