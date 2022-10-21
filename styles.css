@@ -110,16 +110,28 @@ section > img {
   flex-direction: column;
   padding-top: 51px;
 }
+.main-wrap section .dates-container {
+  align-self: flex-start;
+  margin: 0 10px;
+}
+.main-wrap section .dates-container img {
+  height: 40px;
+  width: 350px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(350deg) saturate(600%) contrast(0.8);
+}
 .main-wrap section #main-title {
   display: flex;
-  color: #fff;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  margin: 0 10px;
+  color: #ec5242;
   font-family: "COCOGOOSE", sans-serif;
   font-size: 58px;
   filter: drop-shadow(2px 4px 6px black);
   font-weight: bolder;
 }
 .main-wrap section #main-title div {
-  color: #ee4980;
+  color: #ee8649;
 }
 .main-wrap section #title-image {
   filter: drop-shadow(2px 4px 6px black);
@@ -410,7 +422,7 @@ h3.normal {
 }
 
 .about-section img {
-  width: 80%;
+  width: 70%;
 }
 .about-section .message {
   background-color: #fff;
@@ -423,6 +435,21 @@ h3.normal {
 .about-section .location-about .locate {
   text-align: center;
   font-weight: bold;
+}
+
+#secondary-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 58px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+  margin-top: 60px;
+}
+#secondary-title div {
+  color: #ee8649;
 }
 
 .past-winners section {
@@ -465,6 +492,11 @@ h3.normal {
 
 @media (min-width: 768px) {
   #about-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  #index-header {
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -557,7 +589,15 @@ h3.normal {
     padding-top: 140px;
     display: block;
   }
+  .main-wrap section #main-title {
+    color: #ec5242;
+    font-size: 80px;
+    margin-top: 60px;
+  }
   .main-wrap section .message {
+    max-width: 60%;
+  }
+  .main-wrap section .msg-about {
     max-width: 80%;
   }
   .main-wrap section .location {

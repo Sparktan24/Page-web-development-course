@@ -129,15 +129,30 @@ section > img {
   flex-direction: column;
   padding-top: 51px;
 
+  .dates-container {
+    align-self: flex-start;
+    margin: 0 10px;
+    img {
+      height: 40px;
+      width: 350px;
+      //filter: drop-shadow(2px 4px 6px black);
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(350deg) saturate(600%) contrast(0.8);
+    }
+  }
+
   #main-title {
     display: flex;
-    color: #fff;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin: 0 10px;
+    color: #ec5242;
     font-family: $font-cocogoose;
     font-size: 58px;
     filter: drop-shadow(2px 4px 6px black);
     font-weight: bolder;
     div {
-      color: #ee4980;
+      color: #ee8649;
+      //color: #ee4980;   <<Original logo color
     }
   }
 
@@ -447,8 +462,9 @@ h3.normal {
 
 .about-section {
   img {
-    width: 80%;
+    width: 70%;
   }
+
   .message {
     background-color: #fff;
     border: 3px solid #dfdfdfc9;
@@ -462,6 +478,23 @@ h3.normal {
       text-align: center;
       font-weight: bold;
     }
+  }
+}
+
+#secondary-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  color: #ec5242;
+  font-family: $font-cocogoose;
+  font-size: 58px;
+  filter: drop-shadow(2px 4px 6px black);
+  font-weight: bolder;
+  //color: #ec5242;
+  //font-size: 80px;
+  margin-top: 60px;
+  div {
+    color: #ee8649;
   }
 }
 
@@ -512,6 +545,12 @@ h3.normal {
 // START OF MEDIA  /////////////////////////////////////
 @media (min-width: 768px) {
   #about-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+
+  #index-header {
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -643,7 +682,17 @@ h3.normal {
       padding-top: 140px;
       display: block;
 
+      #main-title {
+        color: #ec5242;
+        font-size: 80px;
+        margin-top: 60px;
+      }
+
       .message {
+        max-width: 60%;
+      }
+
+      .msg-about {
         max-width: 80%;
       }
 
