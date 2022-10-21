@@ -663,7 +663,7 @@ h3.normal {
   .main-wrap section .msg-about {
     max-width: 80%;
   }
-  
+
   .main-wrap section .location {
     display: block;
     padding-left: 15px;
@@ -674,7 +674,7 @@ h3.normal {
     font-size: 50px;
     text-align: left;
   }
-  
+
   .main-wrap section .location .locate {
     font-size: 20px;
     text-align: left;
@@ -700,7 +700,7 @@ h3.normal {
     width: 20%;
     margin-left: 5px;
   }
-  
+
   .partner-wrap section .partners {
     gap: 40px;
   }
