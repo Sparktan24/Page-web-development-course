@@ -110,6 +110,14 @@ section > img {
   }
 }
 
+.ccl-logo {
+  padding-top: 20px;
+
+  img {
+    width: 200px;
+  }
+}
+
 .mobile-menu-wrap .mobile-menu-button img {
   width: 20px;
 }
@@ -452,14 +460,6 @@ h3.normal {
   }
 }
 
-.ccl-logo {
-  padding-top: 20px;
-
-  img {
-    width: 200px;
-  }
-}
-
 .ccl-info {
   font-size: 1em;
 }
@@ -788,6 +788,7 @@ h3.normal {
   .site-footer {
     .footer-black {
       height: 200px;
+
       div {
         .content-cc {
           display: flex;

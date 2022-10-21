@@ -93,6 +93,13 @@ section > img {
   border-radius: 8px;
 }
 
+.ccl-logo {
+  padding-top: 20px;
+}
+.ccl-logo img {
+  width: 200px;
+}
+
 .mobile-menu-wrap .mobile-menu-button img {
   width: 20px;
 }
@@ -406,13 +413,6 @@ h3.normal {
 }
 .footer-black .flex {
   justify-content: center;
-}
-
-.ccl-logo {
-  padding-top: 20px;
-}
-.ccl-logo img {
-  width: 200px;
 }
 
 .ccl-info {
