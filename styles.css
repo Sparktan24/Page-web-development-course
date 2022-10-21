@@ -97,6 +97,14 @@ section > img {
   width: 20px;
 }
 
+.wrap > section,
+.wrap > div {
+  width: 98%;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .main-wrap {
   font-size: 15px;
   width: 90%;
@@ -142,14 +150,6 @@ section > img {
 
 .wrap {
   width: 100%;
-}
-
-.wrap > section,
-.wrap > div {
-  width: 98%;
-  max-width: 1100px;
-  margin: 0 auto;
-  align-items: center;
 }
 
 .message {
@@ -437,21 +437,6 @@ h3.normal {
   font-weight: bold;
 }
 
-#secondary-title {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 10px;
-  color: #ec5242;
-  font-family: "COCOGOOSE", sans-serif;
-  font-size: 58px;
-  filter: drop-shadow(2px 4px 6px black);
-  font-weight: bolder;
-  margin-top: 60px;
-}
-#secondary-title div {
-  color: #ee8649;
-}
-
 .past-winners section {
   display: flex;
   flex-direction: column;
@@ -501,6 +486,35 @@ h3.normal {
     z-index: 1;
     width: 100%;
   }
+  .main-program-wrap .show-all-program {
+    display: none;
+  }
+  .main-program-wrap .show-all-program-desk {
+    display: flex;
+    width: fit-content;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .main-program-wrap .show-all-program-desk a {
+    color: #fff;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+  }
+  .menus ul {
+    display: flex;
+    padding: 0;
+    gap: 30%;
+    list-style: none;
+    font-weight: bold;
+  }
+  .menus ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+  .menus ul li:hover {
+    transform: scale(1.2);
+  }
   .top-menu-wrap {
     display: flex;
     background-color: #272a32;
@@ -526,35 +540,6 @@ h3.normal {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-  .menus ul {
-    display: flex;
-    padding: 0;
-    gap: 30%;
-    list-style: none;
-    font-weight: bold;
-  }
-  .menus ul li a {
-    text-decoration: none;
-    color: grey;
-  }
-  .menus ul li:hover {
-    transform: scale(1.2);
-  }
-  .main-program-wrap .show-all-program {
-    display: none;
-  }
-  .main-program-wrap .show-all-program-desk {
-    display: flex;
-    width: fit-content;
-    margin-top: 20px;
-    font-size: 16px;
-  }
-  .main-program-wrap .show-all-program-desk a {
-    color: #fff;
-    margin-top: 20px;
-    border-bottom: 1px solid #fff;
-    text-decoration: none;
   }
   .speaker-list {
     grid-template-columns: auto auto;
@@ -584,6 +569,20 @@ h3.normal {
     position: fixed;
     background: rgba(255, 255, 255, 0.9607843137);
     z-index: 1;
+  }
+  #secondary-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    color: #ec5242;
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 58px;
+    filter: drop-shadow(2px 4px 6px black);
+    font-weight: bolder;
+    margin-top: 60px;
+  }
+  #secondary-title div {
+    color: #ee8649;
   }
   .main-wrap section {
     padding-top: 140px;

@@ -114,6 +114,14 @@ section > img {
   width: 20px;
 }
 
+.wrap > section,
+.wrap > div {
+  width: 98%;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .main-wrap {
   font-size: 15px;
   width: 90%;
@@ -132,6 +140,7 @@ section > img {
   .dates-container {
     align-self: flex-start;
     margin: 0 10px;
+
     img {
       height: 40px;
       width: 350px;
@@ -150,6 +159,7 @@ section > img {
     font-size: 58px;
     filter: drop-shadow(2px 4px 6px black);
     font-weight: bolder;
+
     div {
       color: #ee8649;
       //color: #ee4980;   <<Original logo color
@@ -167,14 +177,6 @@ section > img {
 
 .wrap {
   width: 100%;
-}
-
-.wrap > section,
-.wrap > div {
-  width: 98%;
-  max-width: 1100px;
-  margin: 0 auto;
-  align-items: center;
 }
 
 .message {
@@ -481,23 +483,6 @@ h3.normal {
   }
 }
 
-#secondary-title {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 10px;
-  color: #ec5242;
-  font-family: $font-cocogoose;
-  font-size: 58px;
-  filter: drop-shadow(2px 4px 6px black);
-  font-weight: bolder;
-  //color: #ec5242;
-  //font-size: 80px;
-  margin-top: 60px;
-  div {
-    color: #ee8649;
-  }
-}
-
 .past-winners {
   section {
     display: flex;
@@ -555,61 +540,6 @@ h3.normal {
     z-index: 1;
     width: 100%;
   }
-  .top-menu-wrap {
-    display: flex;
-    background-color: #272a32;
-    justify-content: flex-end;
-    .top-menu {
-      margin-right: 12%;
-      ul {
-        display: flex;
-        gap: 15px;
-        list-style: none;
-        li {
-          a {
-            color: #fff;
-            text-decoration: none;
-          }
-        }
-        li:hover {
-          transform: scale(1.1);
-        }
-      }
-    }
-  }
-
-  .past-winners {
-    section {
-      .past-winners-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-      }
-    }
-  }
-  .menus {
-
-    //width: 40%;
-    ul {
-      display: flex;
-      padding: 0;
-      gap: 30%;
-      list-style: none;
-      font-weight: bold;
-
-      li {
-        a {
-          text-decoration: none;
-          color: grey;
-        }
-      }
-
-      li:hover {
-        transform: scale(1.2);
-      }
-    }
-  }
 
   .main-program-wrap {
     .show-all-program {
@@ -627,6 +557,70 @@ h3.normal {
         margin-top: 20px;
         border-bottom: 1px solid #fff;
         text-decoration: none;
+      }
+    }
+  }
+
+  .menus {
+    //width: 40%;
+    ul {
+      display: flex;
+      padding: 0;
+      gap: 30%;
+      list-style: none;
+      font-weight: bold;
+
+      li {
+        
+        a {
+          text-decoration: none;
+          color: grey;
+        }
+      }
+
+      li:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .top-menu-wrap {
+    display: flex;
+    background-color: #272a32;
+    justify-content: flex-end;
+
+    .top-menu {
+      margin-right: 12%;
+
+      ul {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+
+        li {
+
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+
+        li:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .past-winners {
+
+    section {
+
+      .past-winners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
       }
     }
   }
@@ -677,6 +671,24 @@ h3.normal {
   }
 
   //MAIN SECTION
+  #secondary-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    color: #ec5242;
+    font-family: $font-cocogoose;
+    font-size: 58px;
+    filter: drop-shadow(2px 4px 6px black);
+    font-weight: bolder;
+    //color: #ec5242;
+    //font-size: 80px;
+    margin-top: 60px;
+    
+    div {
+      color: #ee8649;
+    }
+  }
+
   .main-wrap {
     section {
       padding-top: 140px;
